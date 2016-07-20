@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<data>
+    <supported_tags names="weekday weekend day once" remark="list of supported tags, space separated" />
+    <precedence order="weekday weekend day once" remark="priority increases from left to right"/>
+    <first_dow remark="0=Sun, 1=Mon">1</first_dow>
+    <weekday name="Thu" on="06:00" off="22:15" remark="Sun, Mon, ..., Sat (en_US), single day or duration as Mon-Sat"/>
+    <weekday name="Fri" on="06:00" off="23:15" remark="Sun, Mon, ..., Sat (en_US), single day or duration as Mon-Sat"/>
+    <weekend name="Sat" on="10:00" off="23:15" remark="Sun, Mon, ..., Sat (en_US), single day or duration as Sat-Sun"/>
+    <weekend name="Sun" on="10:00" off="22:15" remark="Sun, Mon, ..., Sat (en_US), single day or duration as Sat-Sun"/>
+    <day name="MyDay" on="11:00" off="15:07" remark="on and off attrs are optional, special day:'today' (==> all days of the week)"/>
+    <once date="20140414" on="08:54" off="14:35" remark="YYYYMMDD" remark2="This serves as an example"/>
+    <once date="20140414" on="08:00" off="+3h" remark="YYYYMMDD" remark2="This serves as an example for the entries done through telegram."/>
+    <remark_dummy remark="tag for inserting once-tags before it" />
+    <remark_general remark="on und off are given as HH:MM if mentioned at all" />
+</data>
